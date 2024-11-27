@@ -1,0 +1,41 @@
+* {
+    font-family: "Noto Sans", Verdana, sans-serif;
+    /* max-width: 800px; */
+    text-align: center;
+}
+
+h1 {
+    color:hsl(0, 9%, 15%);
+    background-color: aliceblue;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul li {
+    text-align: left;
+    list-style: none;
+    padding: 10px 30px;
+    background-repeat: no-repeat;
+    background-image: url("images/chevron.png");
+    background-position: left center;
+    background-size: 20px;
+}
+
+ol li {
+    padding: 10px 30px;
+    text-align: justify;
+}
+
+a {
+    color: hsl(350, 60%, 75%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+}
